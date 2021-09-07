@@ -52,7 +52,7 @@
         <scene sceneID="Zi5-w9-hl9">
             <objects>
                 <navigationController id="xrz-5X-wuW" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="globe" id="it2-SR-xTl"/>
+                    <tabBarItem key="tabBarItem" title="" image="magnifier" id="it2-SR-xTl"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="tPc-bn-D3T">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -86,7 +86,7 @@
         <scene sceneID="eeZ-66-Tfh">
             <objects>
                 <navigationController id="Xeo-t6-hpG" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="bell" id="CV6-Li-LXg"/>
+                    <tabBarItem key="tabBarItem" title="" image="heart" id="CV6-Li-LXg"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gYo-W0-vNT">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -167,7 +167,6 @@
         <!--Explore View Controller-->
         <scene sceneID="wck-gd-FwI">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Jw3-iB-sk2" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="ExploreViewController" id="9lg-YH-FjK" customClass="ExploreViewController" customModule="Instagram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="p5E-Ga-MSM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -177,6 +176,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="Nz3-vE-g5J"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jw3-iB-sk2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-407" y="1412"/>
         </scene>
@@ -199,9 +199,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bell" width="16" height="16"/>
-        <image name="globe" width="16" height="16"/>
+        <image name="heart" width="21.333333969116211" height="21.333333969116211"/>
         <image name="home" width="16" height="16"/>
+        <image name="magnifier" width="21.333333969116211" height="21.333333969116211"/>
         <image name="person" width="16" height="16"/>
         <image name="plus" width="16" height="16"/>
     </resources>

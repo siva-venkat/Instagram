@@ -1,5 +1,5 @@
 //
-//  ProfileViewController.swift
+//  ListViewController.swift
 //  Instagram
 //
 //  Created by Sivaranjani Venkatesh on 11/5/21.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ProfileViewController: UIViewController {
+class ListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
